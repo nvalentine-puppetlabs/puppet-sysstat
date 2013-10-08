@@ -13,7 +13,10 @@ class sysstat(
 
   package { $package: ensure => installed, }
 
-  file { $config: ensure => file, source => "puppet:///${module_name}/sysconfig-sysstat", }
+  file { $config: 
+    ensure => file, 
+    source => "puppet:///modules/${module_name}/sysconfig-sysstat",
+  }
 
   file { $cron_config: 
     ensure => file, 
