@@ -1,7 +1,7 @@
 puppet-sysstat
 --------------
 
-Sysstat for RedHat
+Puppet module nvpuppet/sysstat for RedHat ::osfamily
 
 # License
 Apache License, Version 2.0

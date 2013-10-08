@@ -1,4 +1,4 @@
-name    'puppetlabs-sysstat'
+name    'nvpuppet-sysstat'
 version '0.5.0'
 source 'git://github.com/nvalentine-puppetlabs/puppet-sysstat'
 author 'Nathan Valentine - nathan@puppetlabs.com|nrvale0@gmail.com'
