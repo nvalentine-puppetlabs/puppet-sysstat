@@ -1,0 +1,30 @@
+{
+  "name": "nvpuppet-sysstat",
+  "version": "0.5.1",
+  "source": "git://github.com/nvalentine-puppetlabs/puppet-sysstat",
+  "author": "Nathan Valentine - nathan@puppetlabs.com|nrvale0@gmail.com",
+  "license": "Apache Version 2.0",
+  "summary": "Sysstat module for RedHat",
+  "description": "Sysstat module for RedHat",
+  "project_page": "http://github.com/nvalentine-puppetlabs/puppet-sysstat",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "4.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "678090db87fddc60a8db3c18537a27a8",
+    "README.md": "57062f21744804411b9dba5542f9675a",
+    "files/Debian/sysconfig-sysstat": "dc1fdd130da993c2e5f8c34ca2042492",
+    "files/RedHat/sysconfig-sysstat": "78c556d1fc21eceadb8bbb6c2d1ea9fb",
+    "manifests/init.pp": "42b61e92bde8c6b9382a79e694dbe62b",
+    "manifests/params.pp": "ce242171a97f322e21fb211b3241b7bf",
+    "templates/Debian/cron.erb": "8d3c0ade2f7b1b1e3337c067cea993e5",
+    "templates/RedHat/cron.erb": "bbb4c45eeda6d0586053cd0397412af0",
+    "tests/init.pp": "72ec21bd5272cc44bfbfb0a2d8d62a2c"
+  }
+}
