@@ -2,7 +2,7 @@ class sysstat(
   $interval = hiera('sysstat::interval', '10')
 ) inherits sysstat::params {
 
-  validate_re($interval, '^[0-9]+$')
+  validate_re("${interval}", '^[0-9]+$')
   
   File { 
     owner => 'root', 

@@ -10,7 +10,7 @@ class sysstat::params {
       $package = 'sysstat'
       $service = 'sysstat'
       $config = '/etc/sysstat/sysstat'
-      $cron_config = '/etc/cron.daily/sysstat'
+      $cron_config = '/etc/cron.d/sysstat'
     }
     default: {fail("OS family ${::osfamily} not supported!")}
   }
