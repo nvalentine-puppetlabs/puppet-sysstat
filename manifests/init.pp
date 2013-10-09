@@ -15,12 +15,12 @@ class sysstat(
 
   file { $config: 
     ensure => file, 
-    source => "puppet:///modules/${module_name}/sysconfig-sysstat",
+    source => "puppet:///modules/${module_name}/${::osfamily}/sysconfig-sysstat",
   }
 
   file { $cron_config: 
     ensure => file, 
-    content => template("${module_name}/cron.erb"),
+    content => template("${module_name}/${::osfamily}/cron.erb"),
   }
 
   service { $service: 
